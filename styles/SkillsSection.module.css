@@ -1,0 +1,128 @@
+.skillsSection {
+    text-align: center;
+    color: #fff;
+    background-color: #1f1f38;
+    padding: 4rem 2rem;
+    width: 80%;
+    border-radius: 3%;
+    margin: 12px auto;
+}
+
+.skillsSection h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.skillsSection p {
+    font-size: 1.1rem;
+    margin-bottom: 2rem;
+}
+
+.skillsGrid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    /* Two-column layout */
+    gap: 1.5rem;
+}
+
+.skillCategory {
+    background-color: #282849;
+    border-radius: 12px;
+    padding: 1.5rem;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out;
+}
+
+.skillCategory h3 {
+    font-size: 1.7rem;
+    margin-bottom: 1rem;
+}
+
+.skillIcons {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.skillIcons img {
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+    transition: transform 0.3s;
+}
+
+.skillIcons img:hover {
+    transform: scale(1.1);
+}
+
+@media (max-width: 1024px) {
+    .skillsSection h2 {
+        font-size: 2.2rem;
+    }
+    .skillsSection p {
+        font-size: 1rem;
+    }
+    .skillsGrid {
+        grid-template-columns: repeat(2, 1fr);
+        /* Maintain two columns */
+    }
+    .skillCategory {
+        width: 100%;
+        /* Full width in each grid cell */
+    }
+    .skillCategory h3 {
+        font-size: 1.5rem;
+    }
+    .skillIcons img {
+        width: 45px;
+        height: 45px;
+    }
+}
+
+@media (max-width: 768px) {
+    .skillsSection h2 {
+        font-size: 2rem;
+    }
+    .skillsSection p {
+        font-size: 0.95rem;
+    }
+    .skillsGrid {
+        grid-template-columns: repeat(1, 1fr);
+        /* Single column layout */
+    }
+    .skillCategory {
+        width: 100%;
+        /* Full width in each grid cell */
+    }
+    .skillCategory h3 {
+        font-size: 1.3rem;
+    }
+    .skillIcons img {
+        width: 40px;
+        height: 40px;
+    }
+}
+
+@media (max-width: 480px) {
+    .skillsSection h2 {
+        font-size: 1.8rem;
+    }
+    .skillsSection p {
+        font-size: 0.9rem;
+    }
+    .skillsGrid {
+        grid-template-columns: repeat(1, 1fr);
+        /* Single column layout */
+    }
+    .skillCategory {
+        width: 100%;
+        /* Full width in each grid cell */
+    }
+    .skillCategory h3 {
+        font-size: 1.2rem;
+    }
+    .skillIcons img {
+        width: 35px;
+        height: 35px;
+    }
+}

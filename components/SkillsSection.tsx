@@ -51,10 +51,11 @@ const SkillsSection: React.FC = () => {
         <div className={styles.skillCategory}>
           <h3>Others</h3>
           <div className={styles.skillIcons}>
-            <img src="/2logo.svg" alt="Git" />
-            <img src="/git.svg" alt="GitHub" />
-            <img src="/VS.svg" alt="VS Code" />
-            <img src="/2logo.svg" alt="VS Code" />
+            <h6><img src="/ddgit.png" alt="Git" />Git</h6>
+            <h6><img src="/GitHub-Mark.png" alt="GitHub" />GitHub</h6>
+            
+            <img src="/vs.png" alt="VS Code" />
+            <img src="/jup.png" alt="Jupyter" />
           </div>
         </div>
       </div>

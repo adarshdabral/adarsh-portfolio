@@ -4,6 +4,7 @@ import Hero from '../components/Hero';
 import About from '../components/About';
 import Projects from '../components/Projects';
 import Contact from '../components/Contact';
+
 import SkillsSection from '../components/SkillsSection';
 
 const Home: NextPage = () => {
@@ -11,6 +12,8 @@ const Home: NextPage = () => {
     <Layout title="Adarsh Dabral - Software Engineer">
       <section id="home" className=" min-h-screen flex items-center  ">
         <Hero />
+      
+        
       </section>
       <section id="about" className="min-h-screen flex items-center">
         <About />
@@ -27,6 +30,7 @@ const Home: NextPage = () => {
       <section id="contact" className="min-h-screen flex items-center">
         <Contact />
       </section>
+      
     </Layout>
   );
 };

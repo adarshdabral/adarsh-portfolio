@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import AnimatedText from './AnimatedText';
 import Button from '../components/Button'
-import About from './About';
+
 
 const Hero: React.FC = () => {
   return (

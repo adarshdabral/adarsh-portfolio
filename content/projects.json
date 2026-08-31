@@ -1,0 +1,37 @@
+{
+  "entries": [
+    {
+      "id": "realtime-kanban",
+      "name": "Realtime Kanban",
+      "tagline": "A collaborative task board with live cursors.",
+      "description": "A Kanban board that syncs across every open tab in real time — drag a card and everyone watching sees it move instantly, with presence avatars showing who's looking at what.",
+      "problem": "My team kept losing track of who was working on what because our task board only refreshed on page load. We needed something that felt as live as being in the same room.",
+      "stack": ["Next.js", "WebSockets", "PostgreSQL", "Tailwind CSS"],
+      "screenshots": [],
+      "liveUrl": "https://example.com",
+      "repoUrl": "https://github.com/your-username/realtime-kanban"
+    },
+    {
+      "id": "recipe-cost-tracker",
+      "name": "Recipe Cost Tracker",
+      "tagline": "Know exactly what a dish costs to make, down to the gram.",
+      "description": "Small-batch food businesses enter ingredient costs once, then get automatic per-serving cost breakdowns for every recipe, with alerts when a supplier price change eats into margin.",
+      "problem": "A friend running a bakery was pricing menu items by gut feel. This turned ingredient spreadsheets into something she could actually act on.",
+      "stack": ["React", "Node.js", "SQLite"],
+      "screenshots": [],
+      "liveUrl": null,
+      "repoUrl": "https://github.com/your-username/recipe-cost-tracker"
+    },
+    {
+      "id": "ashos",
+      "name": "AshOS",
+      "tagline": "This portfolio, disguised as a desktop operating system.",
+      "description": "A fake OS you're using right now — draggable windows, a dock, live GitHub/LeetCode stats, and this very CMS you could be reading about while logged into it.",
+      "problem": "A plain resume site is forgettable. This is not.",
+      "stack": ["Next.js", "TypeScript", "Tailwind CSS", "Framer Motion", "Zustand"],
+      "screenshots": [],
+      "liveUrl": null,
+      "repoUrl": "https://github.com/your-username/ashos"
+    }
+  ]
+}

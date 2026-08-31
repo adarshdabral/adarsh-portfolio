@@ -1,0 +1,18 @@
+---
+title: "Shipping AshOS"
+date: "2026-08-22"
+excerpt: "I built a fake operating system to avoid building a normal website. No regrets."
+tags: ["meta", "dev-notes"]
+---
+
+A portfolio is, structurally, a very boring website: a list of jobs, a list of projects, a way to reach you. Nobody remembers those. So this one pretends to be a desktop operating system instead — draggable windows, a dock, a boot sequence, the whole bit.
+
+The fun part wasn't the gimmick, it was the constraints it created. A window manager needs real state (open, focused, minimized, z-order), which needs to survive being dragged, resized, and stacked without anything breaking. Getting that right mattered a lot more than any single window's content.
+
+## What's actually inside
+
+- Live GitHub and LeetCode stats, fetched server-side so no token ever reaches the browser
+- A little CMS behind a login, for editing content without touching JSON by hand
+- This journal, rendered from MDX files — so yes, this exact post is a `.mdx` file sitting in `/content/journal`
+
+If you're digging around in the Admin app wondering how deep this goes: pretty deep, but not infinitely. Some things are still placeholders. That's fine — it's a desktop, not a museum piece.

@@ -1,0 +1,24 @@
+{
+  "entries": [
+    {
+      "id": "sample-paper-one",
+      "title": "Efficient Caching Strategies for Edge-Rendered Web Applications",
+      "venue": "Sample Systems Conference (SSC)",
+      "date": "2024-06",
+      "coAuthors": ["Jane Doe", "John Smith"],
+      "abstract": "We present a caching strategy for edge-rendered applications that reduces origin load by 40% while keeping content freshness within a configurable staleness bound. We evaluate the approach across three production workloads and discuss trade-offs against traditional CDN caching.",
+      "doiUrl": "https://doi.org/10.0000/example.0001",
+      "pdfUrl": "/papers/sample-paper-one.pdf"
+    },
+    {
+      "id": "sample-paper-two",
+      "title": "A Comparative Study of Real-Time Collaboration Protocols",
+      "venue": "Journal of Applied Software Systems",
+      "date": "2023-02",
+      "coAuthors": ["Jane Doe"],
+      "abstract": "This paper compares operational transformation and CRDT-based approaches for real-time collaborative editing under lossy network conditions, with a focus on convergence time and bandwidth overhead.",
+      "doiUrl": "https://doi.org/10.0000/example.0002",
+      "pdfUrl": null
+    }
+  ]
+}

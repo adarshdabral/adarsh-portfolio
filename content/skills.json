@@ -1,0 +1,20 @@
+{
+  "categories": [
+    {
+      "name": "Languages",
+      "skills": ["TypeScript", "JavaScript", "Python", "Go", "SQL"]
+    },
+    {
+      "name": "Frontend",
+      "skills": ["React", "Next.js", "Tailwind CSS", "Framer Motion"]
+    },
+    {
+      "name": "Backend & Infra",
+      "skills": ["Node.js", "PostgreSQL", "Docker", "AWS", "Redis"]
+    },
+    {
+      "name": "Tools & Practice",
+      "skills": ["Git", "Figma", "Linear", "CI/CD", "Testing"]
+    }
+  ]
+}

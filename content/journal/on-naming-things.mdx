@@ -1,0 +1,18 @@
+---
+title: "On naming things"
+date: "2026-08-14"
+excerpt: "There are two hard problems in computer science, and I renamed a variable four times today."
+tags: ["dev-notes"]
+---
+
+Spent twenty minutes today deciding between `getUser`, `fetchUser`, and `loadUser` for a function that does one `fetch()` call. Settled on `getUser`, because `fetch` already implies "goes over the network" and `load` implies "populates some cache," and this does neither of those extra things — it just returns a promise.
+
+Is this a productive use of twenty minutes? Debatable. But a codebase where names mean exactly one consistent thing is a codebase where you can trust the names, and stop re-reading implementations to double check. That trust compounds.
+
+## The rule I landed on
+
+- `get*` — cheap, synchronous-feeling, might hit a cache
+- `fetch*` — explicitly goes over the network
+- `load*` — populates some larger structure or store as a side effect
+
+Three words, one job each. Worth the twenty minutes.

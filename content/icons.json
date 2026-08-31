@@ -1,0 +1,13 @@
+{
+  "apps": {
+    "professional": true,
+    "publications": true,
+    "projects": true,
+    "music": true,
+    "gallery": true,
+    "books": false,
+    "journal": false,
+    "about": false,
+    "contact": true
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "entries": [
+    {
+      "id": "company-a",
+      "company": "Placeholder Robotics Inc.",
+      "role": "Senior Software Engineer",
+      "location": "Remote",
+      "startDate": "2023-06",
+      "endDate": null,
+      "highlights": [
+        "Led the redesign of the core platform API, cutting p95 latency by 40%.",
+        "Mentored three junior engineers and ran the team's fortnightly design reviews.",
+        "Shipped a real-time collaboration feature used by 10k+ weekly active users."
+      ]
+    },
+    {
+      "id": "company-b",
+      "company": "Sample Systems Co.",
+      "role": "Software Engineer",
+      "location": "San Francisco, CA",
+      "startDate": "2021-01",
+      "endDate": "2023-05",
+      "highlights": [
+        "Built an internal analytics dashboard adopted by 5 product teams.",
+        "Reduced CI pipeline time by 55% by parallelizing the test suite.",
+        "Owned the migration from a monolith to a set of typed service boundaries."
+      ]
+    },
+    {
+      "id": "company-c",
+      "company": "Example Labs",
+      "role": "Software Engineering Intern",
+      "location": "New York, NY",
+      "startDate": "2020-05",
+      "endDate": "2020-08",
+      "highlights": [
+        "Prototyped a recommendation engine using collaborative filtering.",
+        "Wrote integration tests that caught two production-bound regressions."
+      ]
+    }
+  ]
+}
